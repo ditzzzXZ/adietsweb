@@ -16,13 +16,13 @@ export const siteConfig: SiteConfig = {
 		fixed: false, // Hide the theme color picker for visitors
 	},
 	banner: {
-		enable: false,
+		enable: true,
 		src: "assets/images/japi.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 		position: "center", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
 		credit: {
-			enable: false, // Display the credit text of the banner image
-			text: "", // Credit text to be displayed
-			url: "", // (Optional) URL link to the original artwork or artist's page
+			enable: true, // Display the credit text of the banner image
+			text: "Credits : me", // Credit text to be displayed
+			url: "https://whatsapp.com/channel/0029Vb62xn8Lo4hXoIHgfs2W/109", // (Optional) URL link to the original artwork or artist's page
 		},
 	},
 	toc: {
@@ -45,34 +45,34 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Archive,
 		LinkPreset.About,
 		{
-			name: "GitHub",
-			url: "https://github.com/saicaca/fuwari", // Internal links should not include the base path, as it is automatically added
+			name: "WhatsApp Channel",
+			url: "https://whatsapp.com/channel/0029Vb62xn8Lo4hXoIHgfs2W", // Internal links should not include the base path, as it is automatically added
 			external: true, // Show an external link icon and will open in a new tab
 		},
 	],
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/demo-avatar.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-	name: "Lorem Ipsum",
-	bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+	avatar: "assets/images/jiap.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+	name: "adittt",
+	bio: "Thanks For Seeing My Website!🪵 \nThanks To All Of You Guys!",
 	links: [
 		{
-			name: "Twitter",
-			icon: "fa6-brands:twitter", // Visit https://icones.js.org/ for icon codes
+			name: "WhatsappAdmin",
+			icon: "famicons:logo-whatsapp", // Visit https://icones.js.org/ for icon codes
 			// You will need to install the corresponding icon set if it's not already included
 			// `pnpm add @iconify-json/<icon-set-name>`
-			url: "https://twitter.com",
+			url: "https://wa.me/62856-5557-0387",
 		},
 		{
-			name: "Steam",
-			icon: "fa6-brands:steam",
-			url: "https://store.steampowered.com",
+			name: "SecondChannel",
+			icon: "famicons:accessibility",
+			url: "https://whatsapp.com/channel/0029Vb6AXSTADTOHUfu7lH1x",
 		},
 		{
-			name: "GitHub",
-			icon: "fa6-brands:github",
-			url: "https://github.com/saicaca/fuwari",
+			name: "TelegramChannel",
+			icon: "famicons:battery-half-outline",
+			url: "https://t.me/adittyaaa_18",
 		},
 	],
 };
